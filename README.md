@@ -1,9 +1,3 @@
-Perfect — I’ll revise the README to remove the admin/login sections and make it 100% accurate for your **current version**.
-
----
-
-### ✅ Cleaned-Up `README.md` (No Admin/Login)
-
 ````markdown
 # 🏥 HealthyLife - Hospital Landing Page
 
