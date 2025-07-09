@@ -53,6 +53,7 @@ npm run dev
 
 ```
 ├── public/
+├── server/
 ├── src/
 │   ├── components/
 │   ├── css/
