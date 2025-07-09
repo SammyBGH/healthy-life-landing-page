@@ -1,0 +1,43 @@
+.scroll-to-top {
+  position: fixed;
+  bottom: 1.5rem;
+  right: 1.5rem;
+  width: 38px;
+  height: 38px;
+  background-color: #4db6e2; /* hero / default */
+  color: white;
+  border: none;
+  border-radius: 50%;
+  font-size: 20px;
+  font-weight: bold;
+  line-height: 1;
+  cursor: pointer;
+  padding: 0;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+  z-index: 1000;
+}
+
+.scroll-to-top:hover {
+  transform: translateY(-2px);
+}
+
+/* Section-specific background colors (updated) */
+.scroll-to-top.about {
+  background-color: #64b5f6;
+}
+
+.scroll-to-top.services {
+  background-color: #4fc3f7;
+}
+
+.scroll-to-top.doctors {
+  background-color: #81d4fa;
+}
+
+.scroll-to-top.appointment {
+  background-color: #29b6f6;
+}

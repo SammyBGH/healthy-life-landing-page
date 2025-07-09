@@ -1,0 +1,8 @@
+/* src/css/index.css */
+body, html {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: gray;
+}

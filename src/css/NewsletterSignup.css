@@ -1,0 +1,57 @@
+.newsletter {
+  background: linear-gradient(to right, #e1f5fe, #ffffff);
+  padding: 4rem 2rem;
+  text-align: center;
+}
+
+.newsletter-content {
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.newsletter h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  color: #007ca6;
+}
+
+.newsletter p {
+  color: #444;
+  margin-bottom: 2rem;
+  font-size: 1rem;
+}
+
+.newsletter-form {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.newsletter-form input {
+  padding: 0.75rem 1rem;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  flex: 1 1 250px;
+  font-size: 1rem;
+}
+
+.newsletter-form button {
+  padding: 0.75rem 1.5rem;
+  background-color: #4db6e2;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: 600;
+  transition: background 0.3s ease;
+}
+
+.newsletter-form button:hover {
+  background-color: #339bbf;
+}
+
+.success-message {
+  color: green;
+  font-weight: 600;
+}

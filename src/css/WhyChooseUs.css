@@ -1,0 +1,44 @@
+.why-us {
+  padding: 4rem 2rem;
+  background-color: #ffffff;
+  text-align: center;
+}
+
+.why-us h2 {
+  color: #1565c0;
+  margin-bottom: 2rem;
+}
+
+.features {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.feature-card {
+  flex: 1 1 200px;
+  max-width: 250px;
+  background-color: #f0f9ff;
+  border-radius: 10px;
+  padding: 1.5rem;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+  transition: transform 0.3s ease;
+}
+
+.feature-card span {
+  font-size: 2rem;
+}
+
+.feature-card h4 {
+  margin-top: 0.8rem;
+  color: #4db6e2;
+}
+
+.feature-card p {
+  color: #555;
+  font-size: 0.95rem;
+  margin-top: 0.5rem;
+  cursor: default;
+}
+

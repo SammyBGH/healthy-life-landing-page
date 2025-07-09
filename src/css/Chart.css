@@ -1,0 +1,17 @@
+.chart-section {
+  padding: 4rem 2rem;
+  background-color: #f0f9ff;
+  text-align: center;
+}
+
+.chart-section *:focus {
+  outline: none;
+  box-shadow: 0 0 0 10px rgba(77, 182, 226, 0.3); /* very soft blue glow */
+}
+
+
+.chart-section h2 {
+  margin-bottom: 2rem;
+  color: #1565c0;
+}
+
