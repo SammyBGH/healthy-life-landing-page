@@ -71,7 +71,7 @@ This project is open source under the [MIT License](LICENSE).
 
 ## 🙌 Credits
 
-Built by [Your Name](https://bkye.vercel.app)
+Built by [Boakye](https://bkye.vercel.app)
 Crafted for real-world hospital and health-tech use cases.
 
 ```
