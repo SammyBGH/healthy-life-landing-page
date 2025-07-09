@@ -3,19 +3,7 @@
 
 A modern, responsive hospital landing page built with **React (Vite)** and **CSS**, designed to showcase services, doctors, appointments, and more — optimized for performance, SEO, and mobile usability.
 
----
 
-## 🌐 Live Demo
-
-[👉 View Site](https://your-deployed-site-link.com)
-
----
-
-## 📸 Preview
-
-![HealthyLife Preview](./preview.png)
-
----
 
 ## 📦 Tech Stack
 
