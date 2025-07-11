@@ -1,16 +1,24 @@
 .hero {
-  background: linear-gradient(to right, #4DB6E2, #e1f5fe);
-  height: 100vh;
+  position: relative;
+  background-image: linear-gradient(to right, rgba(0, 123, 255, 0.6), rgba(0, 0, 0, 0.4)),
+    url('../assets/images/hero-bg.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 5rem 2rem;
   color: white;
-  display: flex;
-  align-items: center;
-  justify-content: center;
   text-align: center;
-  padding: 0 2rem;
+}
+
+.hero-content {
+  max-width: 700px;
+  margin: 0 auto;
+  z-index: 1;
+  position: relative;
 }
 
 .hero h1 {
-  font-size: 3rem;
+  font-size: 2.5rem;
   margin-bottom: 1rem;
 }
 
@@ -20,16 +28,28 @@
 }
 
 .hero button {
-  padding: 0.8rem 2rem;
   background-color: #ffffff;
-  color: #4DB6E2;
+  color: #4db6e2;
+  padding: 0.75rem 1.5rem;
+  font-size: 1rem;
   border: none;
-  border-radius: 5px;
+  border-radius: 25px;
   cursor: pointer;
-  font-weight: bold;
-  transition: all 0.3s ease;
+  transition: background-color 0.3s ease, color 0.3s ease;
 }
 
 .hero button:hover {
-  background-color: #cbeeff;
+  background-color: #4db6e2;
+  color: white;
+}
+
+/* Mobile friendly */
+@media (max-width: 768px) {
+  .hero h1 {
+    font-size: 2rem;
+  }
+
+  .hero p {
+    font-size: 1rem;
+  }
 }
