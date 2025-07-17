@@ -1,4 +1,4 @@
-````markdown
+
 # 🏥 HealthyLife - Hospital Landing Page
 
 A modern, responsive hospital landing page built with **React (Vite)** and **CSS**, designed to showcase services, doctors, appointments, and more — optimized for performance, SEO, and mobile usability.

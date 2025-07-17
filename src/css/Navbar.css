@@ -16,6 +16,8 @@
   color: #4db6e2;
   display: flex;
   align-items: center;
+  position: relative;
+  right: 30px;
 }
 
 .nav-links {
